@@ -10,7 +10,7 @@ Add Ubisoft's fonts:
 
 ```
 rm -rf app/assets/fonts
-curl -L https://gitlab-ncsa.ubisoft.org/adhuy/rails-fonts/-/archive/master/rails-fonts-master.zip > fonts.zip
+curl -L https://github.com/ubi-legal-innovation-team/rails-fonts/archive/master.zip > fonts.zip
 unzip fonts.zip -d app/assets && rm fonts.zip && mv app/assets/rails-fonts-master app/assets/fonts
 ```
 
