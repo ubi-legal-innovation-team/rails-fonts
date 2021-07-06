@@ -34,11 +34,11 @@ Make sure you change the css fonts config with the following code :
 }
 
 
-h1, h2, h3, h4, h5, h6, button, input[type="submit"], strong, .strong, div {
+h1, h2, h3, h4, h5, h6, button, input[type="submit"], strong, .strong {
   font-family: 'Ubisoft bold';
 }
 
-span, label, p, a, ul, li, tbody, u, thead,
+span, label, p, a, ul, li, tbody, u, thead, div
 input[type="text"],
 input[type="radio"],
 input[type="checkbox"],
