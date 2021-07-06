@@ -34,7 +34,7 @@ Make sure you change the css fonts config with the following code :
 }
 
 
-h1, h2, h3, h4, h5, h6, button, input[type="submit"], strong, .strong {
+h1, h2, h3, h4, h5, h6, button, input[type="submit"], strong, .strong, div {
   font-family: 'Ubisoft bold';
 }
 
@@ -43,7 +43,8 @@ input[type="text"],
 input[type="radio"],
 input[type="checkbox"],
 textarea,
-select {
+select,
+.regular {
   font-family: 'Ubisoft regular';
 }
 ```
